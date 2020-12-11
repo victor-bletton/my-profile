@@ -1,0 +1,82 @@
+/* Colors and fonts*/
+
+body  {
+  background-color: #F6F9FC;
+  color: #5B6B7A;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-weight: lighter;
+}
+
+h1,h2,a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #5B6B7A;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 60px
+}
+
+h2 {
+  color:#0A2540;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+a {
+  color: #7A71F7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0E2843;
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+
+@media(max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  width: 300px;
+}
+
+#btn-blue {
+background-color: #6D71DD;
+padding: 15px 20px;
+border-radius: 4px;
+color: white;
+font-weight:bold;
+}
+
+}
